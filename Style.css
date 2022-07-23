@@ -1,0 +1,399 @@
+body {
+    margin-left: 85px;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+
+
+/* hero section start*/
+.Hero {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.my-name {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-weight: 700;
+    margin: 0px;
+    padding-left: 5px;
+}
+
+.text-container {
+    align-items: center;
+    margin-top: 6.5rem;
+}
+
+.Hero-title {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1500;
+    margin-top: 35px;
+}
+
+.about {
+    margin-top: 35px;
+    color: #685f56;
+    font-size: 20px;
+    padding-right: 105px;
+    padding-left: 3px;
+}
+
+.text-container button {
+    margin-top: 50px;
+}
+
+.contact .fa-address-card {
+    padding-right: 10px;
+    margin-left: 3px;
+}
+
+.contact {
+    background-color: #e25151;
+    padding: 13px 30px;
+    border-radius: 8px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: inherit;
+}
+
+.contact:hover {
+    background-color: #9747FF;
+    padding: 13px 35px;
+    border-radius: 8px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.portfolio .fa-address-card {
+    padding-right: 10px;
+}
+
+.portfolio {
+    margin-left: 10px;
+    background-color: #FFFFFF;
+    font-size: 17px;
+    color: #e25151;
+    border: 1px solid #e25151;
+    padding: 13px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio:hover {
+    background-color: #9747FF;
+    color: white;
+    border: 1px solid #e25151;
+
+}
+
+.list {
+    padding: 0px;
+    margin-top: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list li {
+    list-style-type: none;
+
+    font-size: 15.8px;
+    color: gray;
+}
+
+.fa-circle-check {
+    margin-right: 10px;
+}
+
+.image-container img {
+    margin-top: 4rem;
+    height: 800px;
+}
+
+.image-container {
+    background-color: #cf4a4a;
+    border-top-right-radius: 350px;
+    border-top-left-radius: 350px;
+    margin-top: 2rem;
+    height: 750px;
+}
+
+/* hero section End*/
+
+/* Picture section Start*/
+
+.Picture-container {
+    margin-top: 60px;
+    display: flex;
+    grid-gap: 30px;
+    margin-left: 15px;
+    margin-right: 3.5rem;
+}
+
+.uper-content {
+    display: flex;
+    grid-gap: 13px;
+}
+
+.uper-content img {
+    border-radius: 9.5px;
+}
+
+.left-down-content img {
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+.right-container img {
+    border-radius: 15px;
+}
+
+/* Picture section End*/
+
+
+
+
+
+/* communication Sectionn start*/
+
+.communication-content {
+    margin-top: 5rem;
+    margin-left: 15px;
+    margin-right: 50px;
+    display: flex;
+    grid-gap: 20px;
+}
+
+.communicative-container {
+    box-shadow: 0px 0px 23px 5px rgb(190, 169, 169);
+    border-radius: 5px;
+
+}
+
+.communicative-logo .fa-bullhorn {
+    padding-top:10px;
+    padding-left: 20px;
+    color: #cf4a4a;
+    font-size:80px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.communicative-logo .fa-bullhorn:hover {
+    color:tomato;
+}
+
+.communicative-text p {
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: 18px;
+    color: gray;
+    text-align: justify;
+    text-justify: inter-word;
+    
+
+}
+
+.communicative-text h3 {
+    padding-left: 10px;
+    font-family: /*'Poppins', sans-serif;*/ Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 610;
+    padding-left: 10px;
+    color: #212121;
+}
+
+.Collaborative-container{
+    box-shadow: 0px 0px 23px 5px rgb(190, 169, 169);
+    border-radius: 5px;
+
+}
+
+.Collaborative-logo .fa-champagne-glasses{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #cf4a4a;
+    font-size:80px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.fa-champagne-glasses:hover{
+    color: tomato;
+}
+.Collaborative-text p {
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 18px;
+    color: gray;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.Collaborative-text h3 {
+    padding-left: 10px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 610;
+    color: #212121;
+}
+
+.Delivery-container {
+    box-shadow: 0px 0px 23px 5px rgb(190, 169, 169);
+    border-radius: 5px;
+}
+
+.fa-truck{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #cf4a4a;
+    font-size:80px;
+    align-items: center;
+    transition: 0.5s;
+}
+.fa-truck:hover{
+    color: tomato;
+}
+.Delivery-text h3 {
+    padding-left: 10px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 610;
+    color: #212121;
+}
+
+.Delivery-text p {
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 18px;
+    color: gray;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* communication Sectionn End*/
+
+
+/*Travelling Section Strat*/
+
+.Travelling {
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.Travelling-text .dev {
+    color: #e25151;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.Travelling-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 0px;
+    color: #212121;
+}
+
+.Travelling-text p {
+    margin-right: 50px;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.Travle-about {
+    color: gray;
+    padding-right: 60px;
+}
+
+.down {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.company-text {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+
+}
+
+.location {
+    color: gray;
+}
+
+hr {
+    margin-top: 3rem;
+    margin-right: 115px;
+    border-bottom: 1px dashed rgb(122, 29, 29);
+}
+
+.Travelling-image {
+    margin-right: 1rem;
+}
+
+.Travelling-image img {
+    border-radius: 15px;
+}
+
+/*Travelling Section End*/
+
+
+/*Travelling Mobile Section Start*/
+
+.Travelling-Mobile {
+    display: flex;
+    margin-top: 15rem;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.Travelling-Mobile h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 0px;
+
+}
+
+/*Travelling Mobile Section End*/
+
+
+/*Travelling Internet Mobile Banking Section Start*/
+.Internet-Mobile-Banking {
+    display: flex;
+    margin-top: 12rem;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.Internet-Mobile-Banking .dev {
+    color: #e25151;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/*Travelling Internet Mobile Banking Section End*/
